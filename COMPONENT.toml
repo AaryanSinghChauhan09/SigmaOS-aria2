@@ -3,7 +3,7 @@ name = "SigmaOS-aria2"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "aria2 component"
+description = "No GitHub description is set; component scope remains unclassified."
 upstream = []
 
 [contract]
