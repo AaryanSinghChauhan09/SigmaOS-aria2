@@ -1,8 +1,15 @@
 [package]
-name = "sigmaos_aria2"
+name = "SigmaOS-aria2"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_aria2 component"
 
 [lib]
 name = "sigmaos_aria2"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
