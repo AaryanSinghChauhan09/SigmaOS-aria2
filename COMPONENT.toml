@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-aria2"
 tier = 2
-stability = "scaffold"
-language = "rust"
-description = "No GitHub description is set; component scope remains unclassified."
+stability = "beta"
+language = "shell"
+description = "SigmaOS integration for aria2 download accelerator: package management, config deployment, and CLI helpers."
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["app-manager:aria2"]
 depends_on = []
 
 [maturity]
 status = "Implemented"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+test_evidence = "test.sh: syntax + metadata + isolated-HOME lifecycle checks"
+next_mestone = "Per-app config polish"
